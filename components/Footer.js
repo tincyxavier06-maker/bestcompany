@@ -5,7 +5,7 @@ const Footer = () => {
   return (
     <Box
       sx={{
-        background: "#0d0d0d",
+        background: "#350202ff",
         color: "#fff",
         padding: "3rem 2rem",
         marginTop: "3rem",
@@ -16,10 +16,10 @@ const Footer = () => {
         justifyContent="space-between"
         spacing={4}
       >
-        {/* LEFT SECTION - COMPANY INFO */}
+        {}
         <Box sx={{ width: { xs: "100%", md: "40%" } }}>
           <Typography variant="h5" sx={{ fontWeight: "bold", mb: 2 }}>
-            IACT Academy
+           FOOD STREET
           </Typography>
 
           <Typography variant="body1">
@@ -29,15 +29,15 @@ const Footer = () => {
           </Typography>
 
           <Typography variant="body2" sx={{ mt: 2, opacity: 0.8 }}>
-            Email: info@iactacademy.com
+            Email: rincyxavier05@gmail.com
           </Typography>
 
           <Typography variant="body2" sx={{ opacity: 0.8 }}>
-            Phone: +91 98765 43210
+            Phone: +91 9943434275
           </Typography>
         </Box>
 
-        {/* RIGHT SECTION - GOOGLE MAP */}
+        {}
         <Box
           sx={{
             width: { xs: "100%", md: "55%" },
@@ -58,12 +58,12 @@ const Footer = () => {
         </Box>
       </Stack>
 
-      {/* COPYRIGHT */}
+      {}
       <Typography
         variant="body2"
         sx={{ textAlign: "center", mt: 4, opacity: 0.7 }}
       >
-        © {new Date().getFullYear()} IACT Academy — All Rights Reserved.
+        © {new Date().getFullYear()} FOOD STREET READY TO SERVE YOU
       </Typography>
     </Box>
   );
